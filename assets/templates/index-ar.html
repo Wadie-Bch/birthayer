@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلاد سعيد {{ name }}! 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-card">
+            <div class="card-front">
+                <div class="photo-wrapper">
+                    <img src="./assets/image.jpg" alt="صورة" class="profile-photo">
+                </div>
+                <div class="card-content">
+                    <h1>عيد ميلاد سعيد</h1>
+                    <h2>{{ name }}</h2>
+                    <p class="date">{{ date }}</p>
+                    <p class="message">انقر في أي مكان</p>
+                </div>
+            </div>
+            <div class="card-inside">
+                <div class="inside-content">
+                    <h3>عيد ميلاد سعيد!</h3>
+                    <p>
+                        أتمنى لك يوماً رائعاً مليئاً بالسعادة والفرح.<br>
+                        أتمنى أن تتحقق كل أحلامك وأمنياتك.<br>
+                        كل عام وأنت بخير! 🎉
+                    </p>
+                </div>
+            </div>
+        </div>
+        <audio id="birthday-song" src="./assets/happy-birthday.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

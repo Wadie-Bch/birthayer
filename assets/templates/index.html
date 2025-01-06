@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Nouha! 🎂</title>
+    <title>Happy Birthday {{ name }}! 🎂</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,12 +11,12 @@
         <div class="birthday-card">
             <div class="card-front">
                 <div class="photo-wrapper">
-                    <img src="./assets/nouha.jpg" alt="Nouha" class="profile-photo">
+                    <img src="./assets/image.jpg" alt="Image" class="profile-photo">
                 </div>
                 <div class="card-content">
                     <h1>Happy Birthday</h1>
-                    <h2>Nouha</h2>
-                    <p class="date">23 November 2024</p>
+                    <h2>{{ name }}</h2>
+                    <p class="date">{{ date }}</p>
                     <p class="message">Try To Click Anywhere</p>
                 </div>
             </div>
