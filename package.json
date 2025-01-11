@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^6.3.0",
-    "inquirer": "^9.2.12"
+    "@octokit/rest": "^20.0.2",
+    "gh-pages": "^6.1.1",
+    "inquirer": "^9.2.12",
+    "simple-git": "^3.22.0"
   }
 }
