@@ -1,9 +1,12 @@
 {
-  "name": "birthdayer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "birthius",
+  "version": "1.0.1",
+  "description": "Create beautiful birthday celebration pages",
+  "main": "birthius.js",
   "type": "module",
+  "bin": {
+    "birthius": "./birthius.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
